@@ -4,11 +4,9 @@
 This project is aimed to train a prediciton model to predict survival on the titanic. We are given features corresponding to every passenger (like Age, Gender, Sex etc.) and using these features we are supposed to calculate whether a person survived from Titanic mishap or not.
 
 ## Data Sets
-Source: [Kaggle](https://www.kaggle.com/c/titanic/overview)
-
-Size of the train data is 891*12
-
-Size of the test data is 418*11
+- Source: [Kaggle](https://www.kaggle.com/c/titanic/overview)
+- Size of the train data is 891*12
+- Size of the test data is 418*11
 
 ***Description of Data Variables:***
 **Train Data:**
