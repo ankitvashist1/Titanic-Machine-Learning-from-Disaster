@@ -37,15 +37,15 @@ and remove them)
 
 ## Potential Solutions
 To build prediction models, we need to go for required preprocessing as per the model:
-1.) Data Cleaning: We need to take care of the noisy data and missing values. For missing values
+1. Data Cleaning: We need to take care of the noisy data and missing values. For missing values
 in Nominal features, we can use below mentioned techniques:
 - Use the most frequent value to fill in missing values of that attribute
 - Use the most frequent value belonging to the same class to fill in the missing values
 - Build a prediction model (Classification – in case of Nominal feature) to predict missing values
 (if the feature is extremely important).
-2.) Data Transformation: Since our features possess nominal features hence, we will need to
+2. Data Transformation: Since our features possess nominal features hence, we will need to
 convert them into numerical variables.
-3.) Data Reduction: We need to take care of the unnecessary columns in the data set which have
+3. Data Reduction: We need to take care of the unnecessary columns in the data set which have
 very less correlation with the label and eventually drop them.
 There will be various other issues while creating our prediction models. For example,
 corresponding to every prediction model we need to incorporate different preprocessing
@@ -54,9 +54,7 @@ features, hence corresponding to every model, we need to do preprocessing and fi
 prediction model.
 
 ## Evaluations
-We will be using Hold out evaluation since our data set is very large. We will use RMSE, Accuracy
-for evaluating our model and AIC/BIC during feature selection.
+We will use Accuracy metric for our Evaluation purpose.
 
 ## Expected Outcomes
-Expectedly, we will build a model which will predict whether the user will click on the
-advertisement or not.
+Expectedly, we will build a model which will predict whether the passenger has survived or not.
