@@ -12,7 +12,9 @@ Size of the test data is 418*11
 **Train Data:**
 | Variable | Definition |	         Key                       |
 | -------- | ---------- | ---------------------------------- |
-| survival | Survival	  |          0 = No, 1 = Yes           |
+| PassengerId| Id of passenger|
+| Survived | Survival	  |          0 = No, 1 = Yes           |
+|Name| Name of the passenger|
 | pclass	 | Ticket class|	           1 = 1st, 2 = 2nd, 3 = 3rd|
 |sex|	      Sex	|
 |Age|	      Age in years	|
