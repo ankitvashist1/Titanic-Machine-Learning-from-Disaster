@@ -8,8 +8,7 @@ This project is aimed to train a prediciton model to predict survival on the tit
 - Size of the train data is 891*12
 - Size of the test data is 418*11
 
-***Description of Data Variables:***
-
+### ***Description of Data Variables:***
 **Train Data:**
 | Variable | Definition |	         Key                       |
 | -------- | ---------- | ---------------------------------- |
