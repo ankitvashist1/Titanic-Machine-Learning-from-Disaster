@@ -5,7 +5,9 @@ This project is aimed to train a prediciton model to predict survival on the tit
 
 ## Data Sets
 Source: [Kaggle](https://www.kaggle.com/c/titanic/overview)
+
 Size of the train data is 891*12
+
 Size of the test data is 418*11
 
 ***Description of Data Variables:***
